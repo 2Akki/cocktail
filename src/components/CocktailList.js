@@ -6,7 +6,7 @@ import { useGlobalContext } from '../context'
 const CocktailList = () => {
   const {items,loading} = useGlobalContext()
   
-  console.log(items)
+ 
   if(loading) {
     return <>
   <Loading/>

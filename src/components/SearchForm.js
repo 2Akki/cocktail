@@ -6,7 +6,7 @@ const SearchForm = () => {
   const SearVl = useRef(null)
   const HandleSubmit = (e)=>{
     e.preventDefault()
-    // console.log("potato")
+  
     setSearch(SearVl.current.value)
  
   }

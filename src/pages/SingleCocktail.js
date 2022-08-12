@@ -14,7 +14,7 @@ const SingleCocktail = () => {
     const res = await fetch(`${url}${id}`)
     const data =await res.json()
   
-    console.log(data.drinks)
+ 
    if(data.drinks){
     const {
       strDrink:name,
@@ -59,7 +59,7 @@ const SingleCocktail = () => {
   return <h2 className="section-title">no cocktail To Display</h2>
 }
 const {name,image,info,category,glass,instructions,ingredients} = items 
-console.log(image)
+
  return (
  
 <section className="section cocktail-section">
